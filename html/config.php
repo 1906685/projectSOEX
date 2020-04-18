@@ -3,10 +3,9 @@ session_start();
 
 // Define database
 define('dbhost', 'localhost');
-define('dbname', 'soexbd');
 define('dbuser', 'root');
 define('dbpass', '');
-
+define('dbname', 'soexbd');
 
 // Connecting database
 try {
