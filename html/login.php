@@ -64,17 +64,23 @@ if(isset($_POST['login'])) {
         <div class="contenedor contenido-header">
             <div class="barra">
                 <div style="max-width: 30%;">
-                    <a href="../HTML5/index.php">
+                    <a href="../html/index.php">
                         <img src="../img/ShopExpress.png" alt="Logotipo Bienes Raices">
                     </a>
                 </div>
 
                 <nav class="navegacion">
+                <a href="login.php">Iniciar sesion</a>
                     <a href="registro.php">Registrate</a>
                     <a href="nosotros.php">Nosotros</a>
                     <a href="anuncios.php">Anuncios</a>
                     <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
                     <a href="logout.php">Salir</a>
+
+                   
                 </nav>
             </div>
         </div>
@@ -107,11 +113,18 @@ if(isset($_POST['login'])) {
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="login.php">Iniciar sesion</a>
-                <a href="registro.php">Registrate</a>
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="contacto.php">Contacto</a>
+            <a href="login.php">Iniciar sesion</a>
+                    <a href="registro.php">Registrate</a>
+                    <a href="nosotros.php">Nosotros</a>
+                    <a href="anuncios.php">Anuncios</a>
+                    <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
+                    <a href="logout.php">Salir</a>
+                   
+
+                   
             </nav>
             <p class="copyright">Todos los Derechos Reservados 2020 &COPY;</p>
         </div>

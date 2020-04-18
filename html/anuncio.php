@@ -22,18 +22,21 @@
         <div class="contenedor contenido-header" style="height: 12%;">
             <div class="barra">
                 <div style="max-width: 30%;">
-                    <a href="../HTML5/index.html"> <!--Insertamos la imagen dentro del enlace recargar la pag al clickear sobre ella-->
+                    <a href="../html/index.php"> <!--Insertamos la imagen dentro del enlace recargar la pag al clickear sobre ella-->
                         <img src="../img/ShopExpress.png" alt="Logotipo Bienes Raices">
                     </a>
                 </div>
 
                 <nav class="navegacion">
                  <a href=""><?php echo $_SESSION['name']; ?></a>
-                    <a href="login.php">Iniciar sesion</a>
+                 <a href="login.php">Iniciar sesion</a>
                     <a href="registro.php">Registrate</a>
                     <a href="nosotros.php">Nosotros</a>
                     <a href="anuncios.php">Anuncios</a>
                     <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
                     <a href="logout.php">Salir</a>
                 </nav>
             </div>
@@ -108,12 +111,15 @@
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="login.php">Iniciar sesion</a>
-                <a href="registro.php">Registrate</a>
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="contacto.php">Contacto</a>
-                <a href="logout.php">Salir</a>
+            <a href="login.php">Iniciar sesion</a>
+                    <a href="registro.php">Registrate</a>
+                    <a href="nosotros.php">Nosotros</a>
+                    <a href="anuncios.php">Anuncios</a>
+                    <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
+                    <a href="logout.php">Salir</a>
             </nav>
             <p class="copyright">Todos los Derechos Reservados 2020 &COPY;</p>
         </div>

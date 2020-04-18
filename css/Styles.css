@@ -114,6 +114,7 @@ h4{                         /*Definimos tamaño de las letras h4*/
     margin: 0;                 /*definimos que margen tendra el ultimo elemento*/
 }
 
+
 .navegacion b{                                 /*Definimos estilos a los enlaces*/
     color: #ffffff;          /*definimos el color de los enlaces*/
     text-decoration: none;     /*quitamos la linea inferior predeterminada de los enlaces*/

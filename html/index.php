@@ -22,17 +22,20 @@
         <div class="contenedor contenido-header">
             <div class="barra">
                 <div style="max-width: 30%;">
-                    <a href="../HTML5/index.html"> <!--Insertamos la imagen dentro del enlace recargar la pag al clickear sobre ella-->
+                    <a href="../html/index.php "> <!--Insertamos la imagen dentro del enlace recargar la pag al clickear sobre ella-->
                         <img src="../img/ShopExpress.png" alt="Logotipo Bienes Raices">
                     </a>
                 </div>
                 <nav class="navegacion">
                 <a href=""><?php echo $_SESSION['name']; ?></a>
-                    <a href="login.php">Iniciar sesion</a>
+                <
                     <a href="registro.php">Registrate</a>
                     <a href="nosotros.php">Nosotros</a>
                     <a href="anuncios.php">Anuncios</a>
                     <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
                     <a href="logout.php">Salir</a>
                 </nav>
             </div>
@@ -78,7 +81,7 @@
                     <h3>Chaquetas</h3>
                     <p>En fringilla felis ac egestas elementum. Pellentesque vitae tellus eu justo.</p>
 
-                    <a href="../HTML5/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
+                    <a href="../html/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
                 </div>
             </div>
 
@@ -88,7 +91,7 @@
                     <h3>Sweaters</h3>
                     <p>En fringilla felis ac egestas elementum. Pellentesque vitae tellus eu justo.</p>
                     
-                    <a href="../HTML5/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
+                    <a href="../html/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
                 </div>
             </div>
 
@@ -98,13 +101,13 @@
                     <h3>Sweater Cardigan</h3>
                     <p>En fringilla felis ac egestas elementum. Pellentesque vitae tellus eu justo.</p>
                         
-                    <a href="../HTML5/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
+                    <a href="../html/anuncio.html" class="boton boton-amarillo d-block">Ver Productos</a>
                 </div>
             </div>
         </div>
 
             <div class="ver-todas">
-                <a href="../HTML5/anuncios.html" class="boton boton-verde">Ver Todas</a>
+                <a href="../html/anuncios.html" class="boton boton-verde">Ver Todas</a>
             </div>
     </main>
 
@@ -113,21 +116,24 @@
             <h2>Encuentra la casa de tus sueños</h2>
             <p>Llena el formulario de contacto y un asesor se pondrá en contaco contigo 
             a la brevedad</p>
-            <a href="../HTML5/contacto.html" class="boton boton-amarillo">Contáctanos</a>
+            <a href="../html/contacto.html" class="boton boton-amarillo">Contáctanos</a>
         </div>
     </section> 
 
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="login.php">Iniciar sesion</a>
-                <a href="registro.php">Registrate</a>
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="contacto.php">Contacto</a>
-                <a href="logout.php">Salir</a>
-            </nav>
-            <p class="copyright">Todos los Derechos Reservados 2020 &COPY;</p>
+            <a href="login.php">Iniciar sesion</a>
+                    <a href="registro.php">Registrate</a>
+                    <a href="nosotros.php">Nosotros</a>
+                    <a href="anuncios.php">Anuncios</a>
+                    <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
+                    <a href="logout.php">Salir</a>
+                </nav>
+                <p class="copyright">Todos los Derechos Reservados 2020 &COPY;</p>
         </div>
     </footer>
 </body>

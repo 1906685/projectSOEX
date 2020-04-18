@@ -21,18 +21,19 @@
     <header class="site-header">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="../HTML5/index.html">
+                <a href="../html/index.php">
                     <img src="../img/logo.svg" alt="Logotipo Bienes Raices">
                 </a>
 
                 <nav class="navegacion">
-                    <a href=""><?php echo $_SESSION['name']; ?></a>
-                    <a href="login.php">Iniciar sesion</a>
+                <a href="login.php">Iniciar sesion</a>
                     <a href="registro.php">Registrate</a>
                     <a href="nosotros.php">Nosotros</a>
                     <a href="anuncios.php">Anuncios</a>
-                    <a href="blog.php">Blog</a>
                     <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
                     <a href="logout.php">Salir</a>
                 </nav>
             </div>
@@ -102,10 +103,16 @@
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="blog.php">Blog</a>
-                <a href="contacto.php">Contacto</a>
+            
+            <a href="login.php">Iniciar sesion</a>
+                    <a href="registro.php">Registrate</a>
+                    <a href="nosotros.php">Nosotros</a>
+                    <a href="anuncios.php">Anuncios</a>
+                    <a href="contacto.php">Contacto</a>
+                    <a href="empleados.php">Empleados</a>
+                    <a href="articulos.php">Articulos</a>
+                    <a href="inventario.php">Inventario</a>
+                    <a href="logout.php">Salir</a>
             </nav>
             <p class="copyright">Todos los Derechos Reservados 2019 &COPY;</p>
         </div>
