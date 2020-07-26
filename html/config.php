@@ -2,10 +2,10 @@
 session_start();
 
 // Define database
-define('dbhost', 'localhost');
-define('dbuser', 'root');
-define('dbpass', '');
-define('dbname', 'soexbd');
+define('dbhost', 'bvlbshtoo2ok6kdpr5mi-mysql.services.clever-cloud.com');
+define('dbuser', 'ugcxmrhjtyaikhwo');
+define('dbpass', 'vfhSTI3zeP4EgBmKqHWD');
+define('dbname', 'bvlbshtoo2ok6kdpr5mi');
 
 // Connecting database
 try {

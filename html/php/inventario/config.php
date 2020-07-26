@@ -1,9 +1,9 @@
 <?php
 
-$databaseHost = 'localhost';
-$databaseName = 'soexbd';
-$databaseUsername = 'root';
-$databasePassword = '';
+$databaseHost = 'bvlbshtoo2ok6kdpr5mi-mysql.services.clever-cloud.com';
+$databaseName = 'bvlbshtoo2ok6kdpr5mi';
+$databaseUsername = 'ugcxmrhjtyaikhwo';
+$databasePassword = 'vfhSTI3zeP4EgBmKqHWD';
 
 try {
 	// http://php.net/manual/en/pdo.connections.php
